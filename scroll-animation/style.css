@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+}
+
+header h1 {
+  font-size: 60px;
+}
+
+.animation {
+  height: 100vh;
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff);
+  position: relative;
+  overflow: hidden;
+}
+
+.nimbus-cloud {
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
